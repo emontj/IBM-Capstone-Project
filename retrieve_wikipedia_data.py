@@ -186,4 +186,4 @@ if __name__ == '__main__':
     launch_dict = init_launch_dict()
     launch_dict = populate_launch_dict(launch_dict, soup)
     df = pd.DataFrame(launch_dict)
-    df.to_csv(f'spacex_web_scraped.csv', index=False)
+    df.to_csv(f'data/spacex_web_scraped.csv', index=False)
