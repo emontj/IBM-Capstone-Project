@@ -34,6 +34,7 @@ if __name__ == '__main__':
 
     transform = preprocessing.StandardScaler()
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2, random_state = 2)
+    print('Test Sample Records:', len(Y_test))
 
     # L1 Lasso L2 Ridge
     log_parameters = {
